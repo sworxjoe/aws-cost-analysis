@@ -5,7 +5,7 @@ site_pkgs = os.path.join(os.path.split(__location__)[0], "lib", "python2.7", "si
 sys.path.append(site_pkgs)
 
 import logging, traceback, json, time, datetime, hashlib, pytz
-import boto3
+import boto3, time
 import awscostusageprocessor.utils as utils
 import awscostusageprocessor.processor as cur
 import awscostusageprocessor.consts as consts
